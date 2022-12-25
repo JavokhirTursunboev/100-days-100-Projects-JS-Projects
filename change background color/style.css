@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-height: 100vh;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.col{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.btn{
+    padding:20px 65px;
+    border:1px solid black;
+    border-radius: 10px;
+    text-align:center;
+    font-size:1rem;
+    background-color:transparent;
+    
+}
