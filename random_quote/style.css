@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+  background-color: #B09E99; 
+  min-height: 100vh;
+  width:100%; 
+}
+.main__all{
+   height: 1020px;
+   display:flex;
+   align-items: center;
+}
+.quote__part{
+    background-color: #D8CFCC;
+    display: flex;
+    flex-direction: column;
+     flex: 0 0 50%;
+     max-width:50%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1.1rem;
+}
+.btn{
+    background-color: #64B6AC;
+    color: #FFFFFF;
+    padding:10px 14px;
+    border:none;
+    box-shadow: 1px 1px 0px  #333;
+    margin: 21px auto;
+    font-size: 1.42rem;
+}
+h3{
+    color:#6C757D;
+}
+h3 .quote__icon{
+    font-size: 2.4rem;
+}
+h3 .quote{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #64B6AF;
+}
