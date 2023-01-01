@@ -34,7 +34,7 @@
     const messageContent = document.querySelector(".message-content")
 
 
-   if(message.value = ''){
+   if(message.value === ''){
     alerted.classList.add('show')
     setTimeout(function(){
         alerted.classList.remove('show')
