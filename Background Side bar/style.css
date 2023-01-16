@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+}
+
+.img__container{
+    border: 1px solid black;
+    height:600px;
+    margin: 4rem;
+    position: relative;
+}
+
+.btn_left{
+    top:50%;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px 15px;
+    position: relative;
+    right: 25px;
+    background-color: white;
+}
+
+.btn_right{
+    position: absolute;
+    right:-25px;
+    top:50%;
+    text-decoration: none;
+    border:1px solid black;
+    padding: 3px 15px;
+    background-color: white;
+}
+.img__container{
+    background: url(images/a-2.jpg);
+    object-fit:cover;
+    background-repeat:no-repeat;
+}
