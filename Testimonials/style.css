@@ -40,6 +40,7 @@ body{
     margin-top: 6rem;
     padding:1rem;
     position: relative;
+    
 }
 .top__img{
     position: absolute;
@@ -68,4 +69,36 @@ body{
 
 .stars li{
   list-style: none;
+}
+.fa-solid{
+    color:  #FFD700;
+}
+.comment{
+    color:rgb(245, 239, 239);
+    font-size: 1.2rem;
+    line-height:1.2;
+}
+.quote{
+    font-size: 3rem;
+}
+
+.btn{
+    display:flex;
+    justify-content:space-around;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn a i{
+    font-size: 2rem;
+    background-color:white;
+    padding:1rem;
+    border-radius: 50%;
+    
+}
+
+.btn a i:hover{
+    background-color:#FFD700;
+    color: white;
+    transition: 0.3s;
 }
