@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url('img/harish-krishna-e13f5YN5pCQ-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 100vh;
+   display: grid;
+
+}
+.container{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   text-align: center;
+}
+.client{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:rgb(72, 6, 253);
+}
+.testmonial{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing:3px;
+    margin: 1rem 0;
+}
+.box{
+    border:1px solid white;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 6rem;
+    padding:1rem;
+    position: relative;
+}
+.top__img{
+    position: absolute;
+    top: -3.8rem;
+    left: 40%;
+
+}
+.user{
+    width: 100px;
+    border-radius: 50%;
+    border:1px solid white;
+}
+.name{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 100%;
+}
+
+.stars li{
+  list-style: none;
+}
