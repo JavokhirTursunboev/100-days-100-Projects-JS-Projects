@@ -21,7 +21,7 @@
 
   header{
     background-color:var(--mainWhite);
-    padding:  2rem 2rem;
+    padding:  1.3rem 2rem;
     display: flex;
     justify-content:space-between;
 
@@ -36,12 +36,12 @@
   }
   .nav__menu li a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--mainPink)
   }
 
   .nav__menu{
-    min-height: 170px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
