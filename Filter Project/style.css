@@ -87,10 +87,12 @@
 }
 
 .welcome__text{
-  font-size: 3.5rem;
+  font-size: 3rem;
+  color: var(--mainWhite);
 }
 .welcome__text span{
   color: var(--mainPink);
+  font-size: 4rem;
 }
 
 .btn__explore{
@@ -111,7 +113,7 @@
  
 }
 .text__about{
-  width: 40%;
+  width: 35%;
   text-align: start;
   padding: 1rem;
 }
@@ -149,8 +151,6 @@
   
 }
 
-
-
 .about p{
   line-height: 1.5;
 }
@@ -161,11 +161,59 @@
   background-color: var(--mainWhite);
   border-radius: 5px;
 }
+.search{
+ background-color: var(--mainGrey);
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content:center;
+ gap:1rem;
+ 
+}
 
+.search h1{
+font-size: 3.5rem;
+font-weight: 500;
+margin:4rem  3rem 0 0;
+}
+.search h1 span{
+  color: var(--mainPink);
+  font-weight: 700;
+  font-size: 5rem;
+}
 
+.bunch__btn{
+  width: 100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap: 2rem;
+ 
+}
+.btn__flex{
+  font-family: "Kaushan Script", cursive;
+  padding: 5px 10px;
+}
+.search__input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search__input span{
+  background-color: var(--mainPink);
+  padding: .7rem;
+}
 
-
-
+.search__input .search__text {
+  padding: .7rem ;
+  width: 40%;
+  border-collapse: collapse;
+}
+input::placeholder{
+  font-size: 1.2rem;
+  font-family: "Kaushan Script", cursive;
+}
 
 
 
