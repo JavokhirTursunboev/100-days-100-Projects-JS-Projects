@@ -53,7 +53,7 @@
   .hamburger{
     display: block;
     cursor: pointer;
-    
+
   }
 
   .bar{
@@ -76,17 +76,91 @@
 
 .main__container{
  position:relative;
-  background: url('img/headerBcg.jpeg') center/cover fixed no-repeat;
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), 
+  url('img/headerBcg.jpeg') center/cover fixed no-repeat;
   min-height: calc(100vh - 76px);
    width:100%;
+   display:flex;
+   align-items: center;
+   justify-content:center;
+   flex-direction: column;
+}
+
+.welcome__text{
+  font-size: 3.5rem;
+}
+.welcome__text span{
+  color: var(--mainPink);
+}
+
+.btn__explore{
+  padding:.3rem 1rem;
+  font-size: 1.5rem;
+   font-family: "Kaushan Script", cursive;
+   background-color: transparent;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.about{
+  margin: 6rem 0;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+ 
+}
+.text__about{
+  width: 40%;
+  text-align: start;
+  padding: 1rem;
+}
+.text__about h1{
+  
+  font-size: 3rem;
+  font-weight: 500;
+}
+.text__about h1 span{
+  color: var(--mainPink);
+  font-size: 4rem;
+  font-weight: 700;
+}
+.img{
+ position:relative;
+}
+.img::before{
+  content: '';
+  position:absolute;
+  top: -1.5rem;
+  left: -1.7rem;
+  width:100%;
+  height:100%;
+  outline: 0.5rem solid var(--mainYellow);
+  z-index: -1;
+  transition:all 1s ease-in-out;
+}
+.img:hover::before{
+  top: 0;
+  left:0;
+}
+
+.img img{
+  width: 400px;
+  
 }
 
 
 
+.about p{
+  line-height: 1.5;
+}
 
-
-
-
+.btn__about{
+  margin-top: 1.5rem;
+  padding: .5rem 1rem;
+  background-color: var(--mainWhite);
+  border-radius: 5px;
+}
 
 
 
@@ -100,23 +174,21 @@
       display: none;
     }
     .navbar {
-     justify-content:start;     
+      display: flex;
+     flex-direction: column;
+     align-items: flex-start;    
     }
     
    .bar{
     display:block;
    }
    .nav__menu{
-    background-color:var(--mainWhite) ;
+    background-color:var(--mainWhite);
     position: fixed;
-    left: 100%;
-    top: 70px;
-    gap: 0;
+    display:none;
     flex-direction: column;
     width: 100%;
-    text-align: left;
-    transition: 0.5s;
-    padding: 0 2rem;
+    transition:  0.5s ease-in-out;
    }
 
    .nav__item{
@@ -124,6 +196,9 @@
    }
 
    .nav__menu.active{
-      left: 0;
+    display:block;
+    position: relative;
+      height: 100%;
+      transition:  1s ease-in-out;
   }
   }
