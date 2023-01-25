@@ -1,252 +1,324 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
 :root {
-    --mainPink: #ef7998;
-    --mainYellow: rgb(249, 228, 148);
-    --mainWhite: #fff;
-    --mainBlack: #000;
-    --yellowTrans: rgba(249, 228, 148, 0.5);
-    --mainGrey: rgb(238, 238, 238);
-  }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-    height:100vh;
-    font-family: "Kaushan Script", cursive;
-  }
-
-  header{
-    background-color:var(--mainWhite);
-    padding:  1.3rem 2rem;
-    display: flex;
-    justify-content:space-between;
-
-  }
-  .navbar{
-    display:flex;
-    width:100%;
-   justify-content:space-around;
-   align-items:center;
-
+  --mainPink: #ef7998;
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGrey: rgb(238, 238, 238);
 }
-  .nav__menu li{
-    list-style:none;
-   
-  }
-  .nav__menu li a{
-    text-decoration: none;
-    font-size: 1.6rem;
-    color: var(--mainPink)
-  }
 
-  .nav__menu{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Kaushan Script", cursive;
+}
 
-  .hamburger{
-    display: block;
-    cursor: pointer;
+header {
+  background-color: var(--mainWhite);
+  padding: 1.3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__menu li {
+  list-style: none;
+}
+.nav__menu li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--mainPink);
+}
 
-  }
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
-  .bar{
-    display:hidden;
-    width: 2.6rem;
-    height: 6px;
-    background-color:var(--mainPink);
-    margin: 6px;
-    border-radius: 8px;
-  }
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
 
-.box__items{
+.bar {
+  display: hidden;
+  width: 2.6rem;
+  height: 6px;
+  background-color: var(--mainPink);
+  margin: 6px;
+  border-radius: 8px;
+}
+
+.box__items {
   border: 1px solid black;
   border-radius: 5px;
-  padding:  7px;
+  padding: 7px;
 }
-.box__items i{
+.box__items i {
   padding: 0 5px;
 }
 
-.main__container{
- position:relative;
-  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), 
-  url('img/headerBcg.jpeg') center/cover fixed no-repeat;
+.main__container {
+  position: relative;
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
+    url("img/headerBcg.jpeg") center/cover fixed no-repeat;
   min-height: calc(100vh - 76px);
-   width:100%;
-   display:flex;
-   align-items: center;
-   justify-content:center;
-   flex-direction: column;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.welcome__text{
+.welcome__text {
   font-size: 3rem;
   color: var(--mainWhite);
 }
-.welcome__text span{
+.welcome__text span {
   color: var(--mainPink);
   font-size: 4rem;
 }
 
-.btn__explore{
-  padding:.3rem 1rem;
+.btn__explore {
+  padding: 0.3rem 1rem;
   font-size: 1.5rem;
-   font-family: "Kaushan Script", cursive;
-   background-color: transparent;
-   border: 2px solid black;
-   border-radius: 5px;
+  font-family: "Kaushan Script", cursive;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
-.about{
+.about {
   margin: 6rem 0;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  align-items:center;
- 
+  justify-content: space-around;
+  align-items: center;
 }
-.text__about{
+.text__about {
   width: 35%;
   text-align: start;
   padding: 1rem;
 }
-.text__about h1{
-  
+.text__about h1 {
   font-size: 3rem;
   font-weight: 500;
 }
-.text__about h1 span{
+.text__about h1 span {
   color: var(--mainPink);
   font-size: 4rem;
   font-weight: 700;
 }
-.img{
- position:relative;
+.img {
+  position: relative;
 }
-.img::before{
-  content: '';
-  position:absolute;
+.img::before {
+  content: "";
+  position: absolute;
   top: -1.5rem;
   left: -1.7rem;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   outline: 0.5rem solid var(--mainYellow);
   z-index: -1;
-  transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
-.img:hover::before{
+.img:hover::before {
   top: 0;
-  left:0;
+  left: 0;
 }
 
-.img img{
+.img img {
   width: 400px;
-  
 }
 
-.about p{
+.about p {
   line-height: 1.5;
 }
 
-.btn__about{
+.btn__about {
   margin-top: 1.5rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: var(--mainWhite);
   border-radius: 5px;
 }
-.search{
- background-color: var(--mainGrey);
- display:flex;
- flex-direction:column;
- align-items: center;
- justify-content:center;
- gap:1rem;
- 
+.search {
+  background-color: var(--mainGrey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.search h1{
-font-size: 3.5rem;
-font-weight: 500;
-margin:4rem  3rem 0 0;
+.search h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 4rem 3rem 0 0;
 }
-.search h1 span{
+.search h1 span {
   color: var(--mainPink);
   font-weight: 700;
   font-size: 5rem;
 }
 
-.bunch__btn{
+.bunch__btn {
   width: 100%;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 2rem;
- 
 }
-.btn__flex{
+.btn__flex {
+  transition: all .3s ease-in-out;
   font-family: "Kaushan Script", cursive;
   padding: 5px 10px;
 }
-.search__input{
+
+.btn__flex:hover{
+  background-color: var(--mainBlack);
+  color: var(--mainPink)
+}
+.search__input {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
-.search__input span{
+.search__input span {
   background-color: var(--mainPink);
-  padding: .7rem;
+  padding: 0.7rem;
 }
 
 .search__input .search__text {
-  padding: .7rem ;
-  width: 40%;
+  padding: 0.7rem;
+  max-width: 40%;
   border-collapse: collapse;
 }
-input::placeholder{
+input::placeholder {
   font-size: 1.2rem;
   font-family: "Kaushan Script", cursive;
 }
 
 
+/* store */
 
-  @media (max-width: 980px) {
-    .box__items, .phone{
-      display: none;
-    }
-    .navbar {
-      display: flex;
-     flex-direction: column;
-     align-items: flex-start;    
-    }
-    
-   .bar{
-    display:block;
-   }
-   .nav__menu{
-    background-color:var(--mainWhite);
+.store__box{
+margin-bottom:3rem;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content:center;
+gap: 3rem;
+
+}
+.items{
+  background-color: var(--mainWhite);
+ 
+  border-radius: 5px;
+}
+.item{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 350px;
+  height:auto;
+ 
+  
+}
+.item .sold{
+  transition: all 1s ease-in-out;
+   width: 100%;
+   height:100%;
+}
+.un__text{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 1.2rem 1rem; 
+  font-size: 1.2rem;
+  background: var(--mainWhite);
+}
+.item:hover .sold{
+  transform: scale(1.2);
+  overflow:hidden;
+}
+
+.store-item-icon{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: .75rem;
+  background-color: var(--mainYellow);
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform:translate(100%, 100%);
+
+}
+.store-item-icon:hover {
+  color: var(--mainWhite);
+}
+
+.item:hover .store-item-icon{
+  transform: translate(0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 980px) {
+  .box__items,
+  .phone {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bar {
+    display: block;
+  }
+  .nav__menu {
+    background-color: var(--mainWhite);
     position: fixed;
-    display:none;
+    display: none;
     flex-direction: column;
     width: 100%;
-    transition:  0.5s ease-in-out;
-   }
+    transition: 0.5s ease-in-out;
+  }
 
-   .nav__item{
+  .nav__item {
     margin: 1rem 0;
-   }
+  }
 
-   .nav__menu.active{
-    display:block;
+  .nav__menu.active {
+    display: block;
     position: relative;
-      height: 100%;
-      transition:  1s ease-in-out;
+    height: 100%;
+    transition: 1s ease-in-out;
   }
-  }
+}
