@@ -16,6 +16,7 @@
 }
 body {
   height: 100vh;
+  width: 100%;
   font-family: "Kaushan Script", cursive;
 }
 
@@ -39,7 +40,10 @@ header {
   font-size: 1.6rem;
   color: var(--mainPink);
 }
-
+.nav__item :hover{
+ color: var(--mainBlack);
+  transition: all .3s ease-in-out;
+}
 .nav__menu {
   display: flex;
   flex-direction: row;
@@ -140,7 +144,8 @@ header {
 }
 
 .img img {
-  width: 400px;
+  max-width: 320px;
+  height: auto;
 }
 
 .about p {
@@ -289,6 +294,48 @@ gap: 3rem;
 
 
 @media (max-width: 980px) {
+  .welcome__text {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--mainWhite);
+    font-weight: 500;
+}
+.welcome__text span {
+  color: var(--mainPink);
+  font-size: 6rem;
+  font-weight: 800;
+}
+.btn__explore {
+  padding: 0.8rem 3rem;
+  font-size: 2.3rem;
+  font-family: "Kaushan Script", cursive;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+  .about {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__about {
+  width: 65%;
+  text-align: start;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.bunch__btn {
+ flex-wrap: wrap;
+}
+.search__input .search__text {
+  padding: 0.7rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
   .box__items,
   .phone {
     display: none;
