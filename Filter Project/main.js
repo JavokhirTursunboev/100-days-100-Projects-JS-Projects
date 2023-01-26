@@ -12,3 +12,18 @@ document
     hamburger.classList.remove("active");
     navMenu.classList.remove('active')
   }));
+
+
+// Main js code
+
+const buttons = document.querySelectorall('.btn')
+const storeItems = document.querySelectorall('.items')
+
+buttons.forEach((button) =>{
+  button.addEventListener("click", (e) => {
+    e.preventDefault()
+    const filter = target.datase.filter
+
+    storeItems
+  })
+})
