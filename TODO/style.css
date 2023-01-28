@@ -75,3 +75,35 @@ body {
   font-weight: 600;
   font-size: 1.2rem;
 }
+
+/* tasks */
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height:40px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  background-color: white;
+  border-bottom: 2px solid #d1d3d4;
+}
+
+.task span{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.task button{
+  border:none;
+  background-color: transparent;
+  color:black;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:none;
+}
+.task button:hover{
+  transition: all .3s ease-in;
+  color:red;
+  padding-right:5px;
+}
