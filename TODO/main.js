@@ -15,18 +15,20 @@ document.querySelector("#push").onclick = function () {
     </button>
     </div> `;
 
-    let current__task = document.querySelector(".delete");
+    let current__task = document.querySelectorAll(".delete");
     for (let i = 0; i < current__task.length; i++) {
       current__task[i].onclick = function () {
         this.parentNode.remove();
       };
     }
 
-    let tasks = document.querySelectorAll('.task');
-    for(let i=0; i< tasks.length; i++){
-        tasks[i].onclick= function () {
-            this.classList.toggle('done')
-        }
+    let tasks = document.querySelectorAll(".task");
+    for (let i = 0; i < tasks.length; i++) {
+      tasks[i].onclick = function () {
+        this.classList.toggle("done");
+      };
     }
-}
+
+    document.querySelector('#newTask input').value = ''
+  }
 };

@@ -11,9 +11,8 @@ body {
   background: linear-gradient(135deg, #8052ec, #d161ff);
 }
 .container {
-  border: 2px solid white;
-  width: 40%;
-  min-width: 450px;
+  width: 100%;
+  max-width: 450px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -104,9 +103,10 @@ body {
   outline: none;
 }
 .task button:hover {
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   color: red;
-  padding-right: 5px;
+  
+  transform: rotate(360deg);
 }
 .done{
   text-decoration: line-through;
