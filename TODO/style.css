@@ -21,56 +21,57 @@ body {
   padding: 30px 40px;
 }
 
-#newTask{
+#newTask {
   position: relative;
   background-color: white;
-  padding: 30px 20px ;
+  padding: 30px 20px;
   border-radius: 5px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
-#newTask input{
+#newTask input {
   width: 70%;
   width: 70%;
-  height:45px;
+  height: 45px;
   border: 2px solid #d1d3d4;
-  border-radius:5px;
-  padding: 12px;font-size: 1.05rem;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1.05rem;
   color: #111111;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  position:relative;
+  position: relative;
 }
 
-#newTask input:focus{
+#newTask input:focus {
   outline: none;
   border-color: #8052ec;
 }
 
-#newTask button{
+#newTask button {
   position: relative;
-  float:right;
-  width:20%;
-  height:45px;
-  font-family: 'Poppins';
+  float: right;
+  width: 20%;
+  height: 45px;
+  font-family: "Poppins";
   background-color: #8052ec;
-  border:none;
-  color:white;
-  font-weight:500;
+  border: none;
+  color: white;
+  font-weight: 500;
   border-radius: 5px;
   cursor: pointer;
 }
 
-#tasks{
+#tasks {
   padding: 30px 20px;
-  background-color:white;
-  margin-top:60px ;
+  background-color: white;
+  margin-top: 60px;
   border-radius: 10px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
- width: 100%;
- position:relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: relative;
 }
-.hide{
-  display:none;
+.hide {
+  display: none;
   color: rgb(255, 0, 0);
   font-weight: 600;
   font-size: 1.2rem;
@@ -78,32 +79,32 @@ body {
 
 /* tasks */
 
-.task{
+.task {
   display: flex;
   justify-content: space-between;
-  align-items:center;
-  height:40px;
+  align-items: center;
+  height: 40px;
   padding: 0px 10px;
   margin-top: 10px;
   background-color: white;
   border-bottom: 2px solid #d1d3d4;
 }
 
-.task span{
+.task span {
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-.task button{
-  border:none;
+.task button {
+  border: none;
   background-color: transparent;
-  color:black;
+  color: black;
   border-radius: 5px;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
-.task button:hover{
-  transition: all .3s ease-in;
-  color:red;
-  padding-right:5px;
+.task button:hover {
+  transition: all 0.3s ease-in;
+  color: red;
+  padding-right: 5px;
 }
