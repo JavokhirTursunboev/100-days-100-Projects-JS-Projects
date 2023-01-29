@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #90ee90, #f8e3e3);
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+  border: 1px solid black;
+}
+.hour {
+  background-color: white;
+  padding: 2rem;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+.hour:hover {
+  background: linear-gradient(to right, #f8e3e3, #90ee90);
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+.minute {
+  background-color: white;
+  padding: 2rem;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+.minute:hover {
+  background: linear-gradient(to right, #f8e3e3, #90ee90);
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+.second {
+  background-color: white;
+  padding: 2rem;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+.second:hover {
+  background: linear-gradient(to right, #f8e3e3, #90ee90);
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+
+span {
+  font-size: 3rem;
+}
