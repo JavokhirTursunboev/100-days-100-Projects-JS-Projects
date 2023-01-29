@@ -33,3 +33,7 @@ It consists of 100 small Project made by Javascript
 
 ![image](https://user-images.githubusercontent.com/93634237/213061886-35e2f698-de35-46c0-aca8-9985667cd979.png)
 
+8 TOdo
+
+https://todo-practice-app.netlify.app/
+![image](https://user-images.githubusercontent.com/93634237/215298212-629f8934-4153-4273-a583-d297d72ff1c0.png)
