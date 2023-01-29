@@ -11,7 +11,7 @@ document.querySelector("#push").onclick = function () {
         ${document.querySelector("#newTask input").value}
         </span>
     <button class='delete'>
-       s
+       <i class="fa-solid fa-trash"></i>
     </button>
     </div> `;
 
@@ -21,5 +21,12 @@ document.querySelector("#push").onclick = function () {
         this.parentNode.remove();
       };
     }
-  }
+
+    let tasks = document.querySelectorAll('.task');
+    for(let i=0; i< tasks.length; i++){
+        tasks[i].onclick= function () {
+            this.classList.toggle('done')
+        }
+    }
+}
 };
