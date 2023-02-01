@@ -42,3 +42,9 @@ https://todo-practice-app.netlify.app/
 9 Clock
 
 ![image](https://user-images.githubusercontent.com/93634237/215364884-501bed91-51b7-418b-8a76-079c7326a59a.png)
+
+
+10 IBM weight checking
+
+https://weight-checking.netlify.app/
+![image](https://user-images.githubusercontent.com/93634237/215919679-92d73f04-8096-4262-96ff-72af3b352dfb.png)
