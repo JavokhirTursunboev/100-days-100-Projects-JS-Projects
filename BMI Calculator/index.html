@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMB Calculator</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <input
+          type="range"
+          min="20"
+          max="200"
+          value="20"
+          id=" weight"
+          class="weight"
+          oninput="calculate()"/>
+        <span id="weight__value" class="weight__value">20 kg</span>
+      </div>
+
+      <div class="row">
+        <input
+          type="range"
+          min="100"
+          max="200"
+          value="20"
+          id="height"
+          class="height"
+          oninput="calculate()"/>
+        <span id="height__value" class="height__value">100 cm</span>
+      </div>
+
+      <p id="result">20.0</p>
+    </div>
+
+    <!-- javacript -->
+    <script src="main.js"></script>
+  </body>
+</html>
