@@ -48,3 +48,9 @@ https://todo-practice-app.netlify.app/
 
 https://weight-checking.netlify.app/
 ![image](https://user-images.githubusercontent.com/93634237/215919679-92d73f04-8096-4262-96ff-72af3b352dfb.png)
+
+
+11 Stop Watch
+
+https://stop-watching.netlify.app/
+![image](https://user-images.githubusercontent.com/93634237/216084109-3919815f-f0de-4ec5-8341-1eb2405c4bd7.png)
