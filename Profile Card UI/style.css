@@ -1,0 +1,180 @@
+:root {
+  --theme-color: #ff1756;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 340px;
+  height: 420px;
+  background: linear-gradient(
+    to bottom,
+    var(--theme-color) 100px,
+    #ffffff 110px
+  );
+  padding: 50px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
+}
+.card * {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card h4 {
+  color: var(--theme-color);
+  font-size: 16px;
+  margin: 15px 0 10px 0;
+}
+.card h5 {
+  color: #454545;
+  font-weight: 500;
+  font-size: 14px;
+}
+.detail {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 2rem;
+  font-size: "Roboto", sans-serif;
+}
+.detail h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.detail span {
+  color: var(--theme-color);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.buttons .btn {
+  width: 130px;
+  padding: 8px 0;
+  border-radius: 25px;
+  letter-spacing:1px;
+  font-weight: 500;
+}
+.buttons .btn:first-child {
+  background: var(--theme-color);
+  color: #fafafa;
+  border:none
+}
+.buttons .btn:last-child {
+  background: transparent;
+  color: var(--theme-color);
+  border: 2px solid var(--theme-color);
+}
+
+.image {
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 0 8px #ffffff;
+}
+
+.themes {
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  margin-top: 40px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.1);
+}
+.themes .btn {
+  padding: 10px;
+  outline: none;
+  border-radius: 50%;
+  border: 3px solid #dddddd;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #0a96ee;
+}
+.themes .btn1:hover {
+  transform: scale(1.5, 1.5) rotate(360deg);
+  transition:all .3s ease;
+  border-style: solid;
+  border-width:3px;
+ border-color: rgb(247, 234, 234);
+  border-top-color: #0a96ee;
+  border-bottom-color: #0a96ee;
+}
+.btn2 {
+  background-color: #ff1756;
+}
+.themes .btn2:hover {
+  transform: scale(1.5, 1.5) rotate(360deg);
+  transition:all .3s ease;
+  border-style: solid;
+  border-width:3px;
+ border-color: rgb(247, 234, 234);
+  border-top-color: #ff1756;
+  border-bottom-color: #ff1756;
+}
+.btn3 {
+  background-color: #1cb65d;
+}
+.themes .btn3:hover {
+  transform: scale(1.5, 1.5) rotate(360deg);
+  transition:all .3s ease;
+  border-style: solid;
+  border-width:3px;
+ border-color: rgb(247, 234, 234);
+  border-top-color: #1cb65d;
+  border-bottom-color: #1cb65d;
+}
+.btn4 {
+  background-color: #8e44ad;
+}
+.themes .btn4:hover {
+  transform: scale(1.5, 1.5) rotate(360deg);
+  transition:all .3s ease;
+  border-style: solid;
+  border-width:3px;
+ border-color: rgb(247, 234, 234);
+  border-top-color: #8e44ad;
+  border-bottom-color: #8e44ad;
+}
+
+
+.btn5 {
+  background-color: #f4b932;
+}
+.themes .btn5:hover {
+  transform: scale(1.5, 1.5) rotate(360deg);
+  transition:all .3s ease;
+  border-style: solid;
+  border-width:3px;
+ border-color: rgb(247, 234, 234);
+  border-top-color: #f4b932;
+  border-bottom-color: #f4b932;
+}
+
