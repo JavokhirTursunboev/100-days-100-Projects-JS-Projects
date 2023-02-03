@@ -54,3 +54,9 @@ https://weight-checking.netlify.app/
 
 https://stop-watching.netlify.app/
 ![image](https://user-images.githubusercontent.com/93634237/216084109-3919815f-f0de-4ec5-8341-1eb2405c4bd7.png)
+
+
+12 Profile Card UI
+
+https://profile-js.netlify.app/
+![image](https://user-images.githubusercontent.com/93634237/216495561-a3badc8c-598b-4b6f-9e38-edf314f8e71f.png)
