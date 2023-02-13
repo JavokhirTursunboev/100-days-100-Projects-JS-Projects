@@ -13,6 +13,7 @@ body {
   justify-content: center;
   height: 100vh;
   background: linear-gradient(135deg, #ffcf1b, #ff8b1b);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -50,7 +51,6 @@ body {
 }
 
 .details {
- 
   text-align: center;
 }
 
@@ -58,4 +58,28 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
+}
+
+.scores,
+.details {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#result {
+  display: inline-block;
+  padding: 10px 50px;
+  margin: 20px auto;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#user_choice,
+#computer_choice {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+span{
+    font-weight: 600;
 }
