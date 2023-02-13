@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffcf1b, #ff8b1b);
+}
+
+.container {
+  max-width: 400px;
+  min-width: 360px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+.scores {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.weapons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weapons button {
+  background-color: #ffd51b;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  height: 70px;
+  width: 70px;
+  outline: none;
+  cursor: pointer;
+}
+
+.details {
+ 
+  text-align: center;
+}
+
+.scores .details {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
