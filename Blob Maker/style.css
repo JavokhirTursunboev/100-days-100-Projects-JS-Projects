@@ -100,3 +100,12 @@ button{
     cursor: pointer;
     font-size: 12px;
 }
+.copy__text{
+    display: none;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 5px;
+    color: rgb(228, 21, 21);
+    width: 80%;
+    
+}
