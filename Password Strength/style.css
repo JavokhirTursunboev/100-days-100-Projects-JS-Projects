@@ -23,11 +23,10 @@ body {
   width: 300px;
   position: relative;
   margin: auto;
-
 }
-input, 
-p{
-    font-family: 'Roboto Mono', monospace;
+input,
+p {
+  font-family: "Roboto Mono", monospace;
 }
 input {
   width: 100%;
@@ -39,21 +38,47 @@ input {
   outline: none;
   border-radius: 5px 5px 0 0;
 }
- #toggle{
-    position: absolute;
-    top:17px;
-    right:15px;
-    color: #808080;
- }
+#toggle {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  color: #808080;
+}
+.strength {
+  width: 25%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  bottom: 2px;
+}
+#strength-bar {
+  background-color: #dcdcdc;
+  height: 10px;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+}
+#msg {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
 
- #strength-bar{
-    background-color: #dcdcdc;
-    height:10px;
-    border-radius: 0 0 5px 5px;
-    position: relative;
- }
- #msg{
+@media (max-width: 440px) {
+  .wrapper {
+    width: 330px;
+    max-width: 420px;
+  }
+  input {
     width: 100%;
-    text-align: center;
-    margin-top: 20px;
- }
+    height: 40px;
+    padding: 0 20px 0 10px;
+   
+}
+.strength {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    bottom: 2px;
+}
+}
