@@ -81,3 +81,8 @@ https://blob-bunny.netlify.app/
 
 https://password-checker-javoh.netlify.app/
 ![image](https://user-images.githubusercontent.com/93634237/219906667-4bdc3a6c-603d-401d-95a3-ce6516c9873c.png)
+
+17 Weather App
+https://weather-by-javokhir.netlify.app/
+![image](https://user-images.githubusercontent.com/93634237/220802496-f0e6f92d-b949-4f1e-80e6-dbaf3e0c4f9c.png)
+
