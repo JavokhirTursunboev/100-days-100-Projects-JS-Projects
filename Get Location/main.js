@@ -11,6 +11,7 @@ button.addEventListener("click", () => {
 function onSuccess(position) {
   button.innerText = "Detecting your location...";
   let { latitude, longitude } = position.coords;
+  console.log(position)
   //
   fetch(
     ` https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=477cdf03b29c46fd923a0741d8921a8e`
